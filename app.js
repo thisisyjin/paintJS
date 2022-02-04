@@ -34,7 +34,7 @@ function onMouseMove(event) {
     if(!painting) {
         ctx.beginPath(); 
         ctx.moveTo(x, y);
-        // console.log('creating path in', x, y);
+        // console.log('creating path in', x, y);/
     } else {
         ctx.lineTo(x, y);
         ctx.stroke();
